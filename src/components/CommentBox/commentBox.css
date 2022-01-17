@@ -1,0 +1,98 @@
+.hidden-edit {
+  display: none;
+}
+
+.the-comment-section {
+  list-style: none;
+  color: rgb(44, 42, 42);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+#comment-splitter {
+  opacity: 30;
+  height: 1px;
+  background-color: rgb(224, 222, 222);
+  border: none;
+  box-shadow: 0px 0px 1px #cccccc;
+}
+
+.comment-edit-button {
+  display: flex;
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.375em;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #363636;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 1rem;
+  height: 1.5em;
+  justify-content: center;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  left: 305px;
+}
+
+.comment-edit-button:hover {
+  color: white;
+  background-color: #333333;
+}
+
+#comment-post-button {
+  display: flex;
+  align-items: center;
+  appearance: none;
+  background-color: #333333;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.375em;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 1rem;
+  height: 2.5em;
+  width: 95%;
+  justify-content: center;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  left: 10px;
+  margin-bottom: 10px;
+}
+
+#comment-post-button:hover {
+  color: #333333;
+  background-color: #fff;
+}
+
+#comment-input {
+  display: flex;
+  width: 89.8%;
+  margin-left: 11px;
+  padding: 10px;
+  text-align: center;
+}

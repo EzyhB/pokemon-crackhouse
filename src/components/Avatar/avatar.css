@@ -1,0 +1,31 @@
+.post-avatar {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: auto;
+  padding: 0;
+  background-color: white;
+  border-radius: 50%;
+  border-radius: black;
+  border: 1px;
+  cursor: pointer;
+}
+
+.comment-avatar {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: auto;
+  padding: 0;
+  background-color: white;
+  border-radius: 50%;
+  border-radius: black;
+  border: 1px;
+  cursor: pointer;
+}
+
+.image-zoom {
+  transform: scale(1.3);
+}
